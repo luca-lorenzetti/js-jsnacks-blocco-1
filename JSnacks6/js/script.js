@@ -1,7 +1,5 @@
-var num = 2;
+var num = parseInt(prompt("Vuoi calcolare il cubo di quanti numeri?") );
 
 for (var i = 1; i <= num; i++) {
-    num =  Math.pow(2, i);
-    
-    console.log( Math.pow(2, i) );    
+    console.log("Il cubo di " + i +" e': " + Math.pow(i,3) );    
 }
