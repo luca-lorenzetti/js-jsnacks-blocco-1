@@ -10,6 +10,6 @@ var list = [];
 
 for (var i = 0; i < 3; i++) {
     list.push(names[Math.floor(Math.random()*names.length)] + " " + surnames[Math.floor(Math.random()*surnames.length)]);
-    console.log(list[i])
+    console.log(list[i]);
 }
 
